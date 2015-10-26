@@ -1,0 +1,62 @@
+{
+    "48": {
+        "shifted": 126
+    },
+    "49": {
+        "shifted": 33
+    },
+    "50": {
+        "shifted": 34
+    },
+    "51": {
+        "shifted": 35
+    },
+    "52": {
+        "shifted": 36
+    },
+    "53": {
+        "shifted": 37
+    },
+    "54": {
+        "shifted": 38
+    },
+    "55": {
+        "shifted": 39
+    },
+    "56": {
+        "shifted": 40
+    },
+    "57": {
+        "shifted": 41
+    },
+    "186": {
+        "shifted": 42,
+        "unshifted": 58
+    },
+    "187": {
+        "shifted": 126
+    },
+    "188": {
+        "shifted": 60,
+        "unshifted": 44
+    },
+    "189": {
+        "shifted": 61
+    },
+    "190": {
+        "unshifted": 127,
+        "shifted": 62
+    },
+    "219": {
+        "unshifted": 64,
+        "shifted": 96
+    },
+    "220": {
+        "shifted": 125,
+        "unshifted": 93
+    },
+    "221": {
+        "shifted": 123,
+        "unshifted": 91
+    }
+}
