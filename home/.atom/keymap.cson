@@ -1,0 +1,74 @@
+'.platform-linux':
+  'f13': 'pane:show-previous-item'
+  'f14': 'pane:show-next-item'
+  'ctrl-alt-p': 'command-palette:toggle'
+  'ctrl-0': 'tree-view:toggle-focus'
+  'ctrl-alt-s': 'tree-view:toggle'
+  'ctrl-f14': 'terminal-plus:toggle'
+  'cmd-space': 'editor:add-selection-below'
+  'ctrl-alt-p': 'command-palette:toggle'
+  'cmd-w': 'core:close'
+  'ctrl-n': 'core:move-down'
+  'ctrl-p': 'core:move-up'
+  'ctrl-alt-w': 'tabs:close-all-tabs'
+
+  'ctrl-k ctrl-alt-w': 'unset!'
+  'ctrl-k ctrl-down': 'unset!'
+  'ctrl-k ctrl-left': 'unset!'
+  'ctrl-k ctrl-n': 'unset!'
+  'ctrl-k ctrl-p': 'unset!'
+  'ctrl-k ctrl-right': 'unset!'
+  'ctrl-k ctrl-up': 'unset!'
+  'ctrl-k ctrl-w': 'unset!'
+  'ctrl-k down': 'unset!'
+  'ctrl-k left': 'unset!'
+  'ctrl-k right': 'unset!'
+  'ctrl-k up': 'unset!'
+  'ctrl-k up': 'unset!'
+
+'.tree-view':
+  'ctrl-n': 'core:move-down'
+  'ctrl-p': 'core:move-up'
+  'ctrl-b': 'tree-view:recursive-collapse-directory'
+  'ctrl-f': 'tree-view:recursive-expand-directory'
+
+'atom-text-editor.vim-mode.normal-mode':
+  'ctrl-j': 'fuzzy-finder:toggle-file-finder'
+  'ctrl-[': 'editor:outdent-selected-rows'
+  'ctrl-]': 'editor:indent-selected-rows'
+
+'atom-text-editor.vim-mode.insert-mode':
+  'ctrl-j': 'fuzzy-finder:toggle-file-finder'
+  'ctrl-y': 'core:paste'
+  'ctrl-[': 'editor:outdent-selected-rows'
+  'ctrl-]': 'editor:indent-selected-rows'
+
+'.editor':
+  'cmd-b': 'core:page-up'
+  'cmd-f': 'core:page-down'
+  'ctrl-h': 'core:backspace'
+  'ctrl-j': 'fuzzy-finder:toggle-file-finder'
+  'ctrl-alt-j': 'fuzzy-finder:toggle-buffer-finder'
+  'ctrl-x ctrl-c': 'window:close'
+  'cmd-u': 'core:undo'
+  'cmd-r': 'core:redo'
+
+'.platform-linux atom-text-editor':
+  'ctrl-L': 'editor:split-selections-into-lines'
+
+  'ctrl-k ctrl-l': 'unset!'
+  'ctrl-k ctrl-u': 'unset!'
+  'ctrl-k ctrl-d': 'unset!'
+  'ctrl-k ctrl-b': 'unset!'
+
+'atom-workspace atom-text-editor:not([mini])':
+  'ctrl-k ctrl-0': 'unset!'
+  'ctrl-k ctrl-1': 'unset!'
+  'ctrl-k ctrl-2': 'unset!'
+  'ctrl-k ctrl-3': 'unset!'
+  'ctrl-k ctrl-4': 'unset!'
+  'ctrl-k ctrl-5': 'unset!'
+  'ctrl-k ctrl-6': 'unset!'
+  'ctrl-k ctrl-7': 'unset!'
+  'ctrl-k ctrl-8': 'unset!'
+  'ctrl-k ctrl-9': 'unset!'

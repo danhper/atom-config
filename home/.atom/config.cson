@@ -1,0 +1,27 @@
+"*":
+  "exception-reporting":
+    userId: "b6e0e25d-e445-31ec-3a35-8e82d7dfe306"
+  welcome:
+    showOnStartup: false
+  core:
+    audioBeep: false
+    themes: [
+      "one-dark-ui"
+      "base16-tomorrow-dark-theme"
+    ]
+    autoHideMenuBar: true
+  editor:
+    invisibles: {}
+    fontFamily: "Ricty"
+    fontSize: 15
+    showIndentGuide: true
+  "vim-mode":
+    useClipboardAsDefaultRegister: true
+    useSmartcaseForSearch: true
+  "keyboard-localization":
+    useKeyboardLayout: "ja_JP"
+    useKeyboardLayoutFromPath: "/home/daniel/.atom/ja_JP106.json"
+  linter: {}
+  "terminal-plus":
+    core: {}
+    style: {}
