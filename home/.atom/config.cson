@@ -25,3 +25,8 @@
   "terminal-plus":
     core: {}
     style: {}
+  "autocomplete-elixir":
+    elixirPath: "/bin/elixir"
+    erlangHome: "/bin"
+  "advanced-open-file":
+    createFileInstantly: true

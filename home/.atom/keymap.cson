@@ -29,8 +29,8 @@
 '.tree-view':
   'ctrl-n': 'core:move-down'
   'ctrl-p': 'core:move-up'
-  'ctrl-b': 'tree-view:recursive-collapse-directory'
-  'ctrl-f': 'tree-view:recursive-expand-directory'
+  'ctrl-b': 'tree-view:collapse-directory'
+  'ctrl-f': 'tree-view:expand-directory'
 
 'atom-text-editor.vim-mode.normal-mode':
   'ctrl-j': 'fuzzy-finder:toggle-file-finder'
