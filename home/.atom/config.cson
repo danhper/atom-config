@@ -9,7 +9,6 @@
       "one-dark-ui"
       "base16-tomorrow-dark-theme"
     ]
-    autoHideMenuBar: true
   editor:
     invisibles: {}
     fontFamily: "Ricty"

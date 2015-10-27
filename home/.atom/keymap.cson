@@ -11,6 +11,7 @@
   'ctrl-n': 'core:move-down'
   'ctrl-p': 'core:move-up'
   'ctrl-alt-w': 'tabs:close-all-tabs'
+  'ctrl-cmd-i': 'window:toggle-invisibles'
 
   'ctrl-k ctrl-alt-w': 'unset!'
   'ctrl-k ctrl-down': 'unset!'
