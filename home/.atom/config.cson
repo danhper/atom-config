@@ -9,7 +9,12 @@
       "one-dark-ui"
       "base16-tomorrow-dark-theme"
     ]
-    packagesWithKeymapsDisabled: []
+    packagesWithKeymapsDisabled: [
+      "rspec"
+      "terminal-plus"
+      "ruby-block"
+      "rails-rspec"
+    ]
   editor:
     invisibles: {}
     fontFamily: "Ricty"
@@ -113,3 +118,9 @@
     createFileInstantly: true
   "haskell-ghc-mod": {}
   "ide-haskell": {}
+  "atom-ternjs": {}
+  "atom-beautify":
+    _analyticsUserId: "18bc3f10-9ef4-4570-a89e-3eb9253782ab"
+  rspec:
+    command: "bundle exec spring rspec"
+  "rails-rspec": {}

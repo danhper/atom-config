@@ -17,6 +17,7 @@
   'ctrl-cmd-i': 'window:toggle-invisibles'
   'alt--': 'symbols-view:return-from-declaration'
   'ctrl-f13': 'editor:focus-main'
+  'cmd-i': 'vim-mode:activate-insert-mode'
 
   'ctrl-k ctrl-alt-w': 'unset!'
   'ctrl-k ctrl-down': 'unset!'
@@ -69,6 +70,10 @@
   'ctrl-k ctrl-d': 'unset!'
   'ctrl-k ctrl-b': 'unset!'
 
+'.platform-linux .terminal-plus .terminal':
+  'alt-f': 'editor:move-to-end-of-word'
+  'alt-b': 'editor:move-to-beginning-of-word'
+
 'atom-workspace atom-text-editor:not([mini])':
   'ctrl-k ctrl-0': 'unset!'
   'ctrl-k ctrl-1': 'unset!'
@@ -80,3 +85,11 @@
   'ctrl-k ctrl-7': 'unset!'
   'ctrl-k ctrl-8': 'unset!'
   'ctrl-k ctrl-9': 'unset!'
+
+'atom-workspace atom-text-editor.vim-mode.normal-mode[data-grammar="source ruby"],
+ atom-workspace atom-text-editor.vim-mode.normal-mode[data-grammar="source ruby rails"]':
+  't r': 'rspec:run'
+  't h': 'rspec:run-for-line'
+  't l': 'rspec:run-last'
+  't a': 'rspec:run-all'
+  'g t': 'rails-rspec:toggle-spec-file'
