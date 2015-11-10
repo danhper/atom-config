@@ -93,3 +93,11 @@
   't l': 'rspec:run-last'
   't a': 'rspec:run-all'
   'g t': 'rails-rspec:toggle-spec-file'
+
+'atom-text-editor.vim-mode.normal-mode[data-grammar="source go"]':
+  'g d': 'golang:godef'
+  'alt--': 'golang:godef-return'
+
+'atom-text-editor.vim-mode.normal-mode[data-grammar="source js"]':
+  'g d': 'tern:definition'
+  'alt--': 'tern:markerCheckpointBack'

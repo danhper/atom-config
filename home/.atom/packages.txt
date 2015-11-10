@@ -13,6 +13,7 @@ docblockr@0.7.3
 editorconfig@1.2.2
 emmet@2.3.14
 ex-mode@0.7.0
+go-plus@3.5.1
 haskell-ghc-mod@1.1.1
 ide-haskell@1.3.0
 jshint@1.8.3
@@ -27,12 +28,13 @@ linter-jscs@3.2.0
 linter-rubocop@0.4.4
 minimap@4.16.0
 pretty-json@0.4.1
+project-manager@2.6.5
 rails-rspec@0.3.2
 rspec@0.3.2
 rspec-snippets@0.4.0
 ruby-block@0.3.5
 script@3.0.1
-terminal-plus@0.13.0
+terminal-plus@0.13.1
 turbo-javascript@1.2.0
-vim-mode@0.63.0
+vim-mode@0.62.0
 
