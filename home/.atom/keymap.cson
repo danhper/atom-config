@@ -101,3 +101,6 @@
 'atom-text-editor.vim-mode.normal-mode[data-grammar="source js"]':
   'g d': 'tern:definition'
   'alt--': 'tern:markerCheckpointBack'
+
+'atom-text-editor.vim-mode.insert-mode[data-grammar="text html elixir"]:not([mini])':
+  'tab': 'emmet:expand-abbreviation-with-tab'

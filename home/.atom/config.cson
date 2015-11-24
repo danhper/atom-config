@@ -125,3 +125,4 @@
     command: "bundle exec spring rspec"
   "rails-rspec": {}
   "go-plus": {}
+  emmet: {}
