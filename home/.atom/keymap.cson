@@ -41,6 +41,7 @@
 
 'atom-text-editor.vim-mode.normal-mode':
   'ctrl-j': 'fuzzy-finder:toggle-file-finder'
+  'ctrl-alt-j': 'fuzzy-finder:toggle-buffer-finder'
   'ctrl-[': 'editor:outdent-selected-rows'
   'ctrl-]': 'editor:indent-selected-rows'
   'g d': 'symbols-view:go-to-declaration'

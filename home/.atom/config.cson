@@ -1,13 +1,29 @@
 "*":
-  "exception-reporting":
-    userId: "b6e0e25d-e445-31ec-3a35-8e82d7dfe306"
-  welcome:
-    showOnStartup: false
+  "advanced-open-file":
+    createFileInstantly: true
+  "atom-beautify":
+    _analyticsUserId: "18bc3f10-9ef4-4570-a89e-3eb9253782ab"
+  "atom-ternjs": {}
+  "autocomplete-elixir":
+    elixirPath: "/bin/elixir"
+    erlangHome: "/bin"
+    matchDoEnd: false
+  "autocomplete-plus": {}
+  codic:
+    accessToken: "iSNoYJwh8RZdq0HRoo6UdwZ8MnHMEBvH6"
   core:
     audioBeep: false
-    themes: [
-      "one-dark-ui"
-      "base16-tomorrow-dark-theme"
+    disabledPackages: [
+      "atom-ternjs"
+    ]
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      "Godeps"
     ]
     packagesWithKeymapsDisabled: [
       "rspec"
@@ -15,24 +31,39 @@
       "ruby-block"
       "rails-rspec"
     ]
+    themes: [
+      "one-dark-ui"
+      "base16-tomorrow-dark-theme"
+    ]
   editor:
-    invisibles: {}
     fontFamily: "Ricty"
     fontSize: 15
+    invisibles: {}
     showIndentGuide: true
-  "vim-mode":
-    useClipboardAsDefaultRegister: true
-    useSmartcaseForSearch: true
+    showInvisibles: true
+  emmet: {}
+  "exception-reporting":
+    userId: "b6e0e25d-e445-31ec-3a35-8e82d7dfe306"
+  "go-plus": {}
+  "haskell-ghc-mod": {}
+  "ide-haskell": {}
+  ignoredNames: [
+    null
+    "Godeps"
+  ]
+  jshint:
+    onlyConfig: true
   "keyboard-localization":
     useKeyboardLayout: "ja_JP"
     useKeyboardLayoutFromPath: "/home/daniel/.atom/ja_JP106.json"
   linter: {}
+  "linter-elixirc": {}
+  "linter-eslint":
+    disableWhenNoEslintConfig: false
+  "rails-rspec": {}
+  rspec:
+    command: "bundle exec spring rspec"
   "terminal-plus":
-    core: {}
-    style:
-      fontFamily: "Ricty"
-      fontSize: 17
-      animationSpeed: 0
     ansiColors:
       normal:
         blue:
@@ -111,18 +142,16 @@
           green: 198
           blue: 116
           alpha: 1
-  "autocomplete-elixir":
-    elixirPath: "/bin/elixir"
-    erlangHome: "/bin"
-  "advanced-open-file":
-    createFileInstantly: true
-  "haskell-ghc-mod": {}
-  "ide-haskell": {}
-  "atom-ternjs": {}
-  "atom-beautify":
-    _analyticsUserId: "18bc3f10-9ef4-4570-a89e-3eb9253782ab"
-  rspec:
-    command: "bundle exec spring rspec"
-  "rails-rspec": {}
-  "go-plus": {}
-  emmet: {}
+    core: {}
+    style:
+      animationSpeed: 0
+      fontFamily: "Ricty"
+  "todo-show":
+    sortBy: "Type"
+  "tree-view": {}
+  "vim-mode":
+    useClipboardAsDefaultRegister: true
+    useSmartcaseForSearch: true
+  wakatime: {}
+  welcome:
+    showOnStartup: false
