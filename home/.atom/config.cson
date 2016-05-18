@@ -9,6 +9,8 @@
     erlangHome: "/bin"
     matchDoEnd: false
   "autocomplete-plus": {}
+  "autoupdate-packages":
+    lastUpdateTimestamp: 1463537035332
   codic:
     accessToken: "iSNoYJwh8RZdq0HRoo6UdwZ8MnHMEBvH6"
   core:
