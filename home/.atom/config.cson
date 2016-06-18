@@ -10,13 +10,15 @@
     matchDoEnd: false
   "autocomplete-plus": {}
   "autoupdate-packages":
-    lastUpdateTimestamp: 1463537035332
+    lastUpdateTimestamp: 1466228295212
   codic:
     accessToken: "iSNoYJwh8RZdq0HRoo6UdwZ8MnHMEBvH6"
   core:
     audioBeep: false
     disabledPackages: [
       "atom-ternjs"
+      "vim-mode-plus"
+      "vim-mode-plus-ex-mode"
     ]
     ignoredNames: [
       ".git"
@@ -62,6 +64,9 @@
   "linter-elixirc": {}
   "linter-eslint":
     disableWhenNoEslintConfig: false
+  "linter-jshint":
+    disableWhenNoJshintrcFileInPath: true
+  "project-plus": {}
   "rails-rspec": {}
   rspec:
     command: "bundle exec spring rspec"
@@ -154,6 +159,12 @@
   "vim-mode":
     useClipboardAsDefaultRegister: true
     useSmartcaseForSearch: true
-  wakatime: {}
+  wakatime:
+    apikey: "Saved in your ~/.wakatime.cfg file"
+  "wakatime-hidden":
+    lastInit: 1466228225
   welcome:
     showOnStartup: false
+".elixir.text":
+  editor:
+    autoIndent: true

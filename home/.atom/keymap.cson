@@ -37,7 +37,7 @@
   'ctrl-n': 'core:move-down'
   'ctrl-p': 'core:move-up'
   'ctrl-b': 'tree-view:collapse-directory'
-  'ctrl-f': 'tree-view:expand-directory'
+  'ctrl-f': 'tree-view:expand-item'
 
 'atom-text-editor.vim-mode.normal-mode':
   'ctrl-j': 'fuzzy-finder:toggle-file-finder'
@@ -72,8 +72,7 @@
   'ctrl-k ctrl-b': 'unset!'
 
 '.platform-linux .terminal-plus .terminal':
-  'alt-f': 'editor:move-to-end-of-word'
-  'alt-b': 'editor:move-to-beginning-of-word'
+  'space': 'native!'
 
 'atom-workspace atom-text-editor:not([mini])':
   'ctrl-k ctrl-0': 'unset!'
