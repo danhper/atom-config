@@ -1,4 +1,6 @@
 "*":
+  "activate-power-mode":
+    autoToggle: false
   "advanced-open-file":
     createFileInstantly: true
   "atom-beautify":
