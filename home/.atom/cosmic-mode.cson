@@ -21,3 +21,10 @@
   '7': 'pane-manager:move-to-pane-seven'
   '8': 'pane-manager:move-to-pane-eight'
   '9': 'pane-manager:move-to-pane-nine'
+
+'f':
+  'shift-R': 'tree-view:rename'
+  'shift-D': 'tree-view:remove'
+
+'r':
+  'r': 'script:run'

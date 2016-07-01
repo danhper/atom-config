@@ -104,3 +104,6 @@
 
 'atom-text-editor.vim-mode.insert-mode[data-grammar="text html elixir"]:not([mini])':
   'tab': 'emmet:expand-abbreviation-with-tab'
+
+'atom-text-editor.vim-mode.normal-mode[data-grammar="source haskell"]':
+  'g d': 'haskell-ghc-mod:go-to-declaration'
