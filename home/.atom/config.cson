@@ -14,7 +14,7 @@
   "autocomplete-plus": {}
   "autocomplete-ruby": {}
   "autoupdate-packages":
-    lastUpdateTimestamp: 1467297761645
+    lastUpdateTimestamp: 1471602287654
   codic:
     accessToken: "iSNoYJwh8RZdq0HRoo6UdwZ8MnHMEBvH6"
   core:
@@ -23,6 +23,8 @@
       "atom-ternjs"
       "vim-mode-plus"
       "vim-mode-plus-ex-mode"
+      "linter-scss-lint"
+      "zentabs"
     ]
     ignoredNames: [
       ".git"
@@ -55,6 +57,8 @@
     userId: "b6e0e25d-e445-31ec-3a35-8e82d7dfe306"
   "go-plus": {}
   "haskell-ghc-mod":
+    onChangeCheck: true
+    onChangeLint: true
     showTypeOnSelection: true
   "highlight-line": {}
   "ide-haskell": {}
@@ -163,14 +167,15 @@
       fontFamily: "Ricty"
   "todo-show":
     sortBy: "Type"
-  "tree-view": {}
+  "tree-view":
+    hideVcsIgnoredFiles: true
   "vim-mode":
     useClipboardAsDefaultRegister: true
     useSmartcaseForSearch: true
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"
   "wakatime-hidden":
-    lastInit: 1467282755
+    lastInit: 1471580662
   welcome:
     showOnStartup: false
 ".c.source":
