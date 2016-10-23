@@ -6,6 +6,9 @@
   "atom-beautify":
     general:
       _analyticsUserId: "18bc3f10-9ef4-4570-a89e-3eb9253782ab"
+  "atom-ctags":
+    autoBuildTagsWhenActive: true
+    cmdArgs: "--exclude=node_modules"
   "atom-ternjs": {}
   "autocomplete-elixir":
     elixirPath: "/bin/elixir"
@@ -14,7 +17,7 @@
   "autocomplete-plus": {}
   "autocomplete-ruby": {}
   "autoupdate-packages":
-    lastUpdateTimestamp: 1471602287654
+    lastUpdateTimestamp: 1477136586210
   codic:
     accessToken: "iSNoYJwh8RZdq0HRoo6UdwZ8MnHMEBvH6"
   core:
@@ -25,6 +28,8 @@
       "vim-mode-plus-ex-mode"
       "linter-scss-lint"
       "zentabs"
+      "linter-markdown"
+      "symbols-view"
     ]
     ignoredNames: [
       ".git"
@@ -34,6 +39,7 @@
       "._*"
       "Thumbs.db"
       "Godeps"
+      "\\.tags"
     ]
     packagesWithKeymapsDisabled: [
       "rspec"
@@ -41,6 +47,9 @@
       "ruby-block"
       "rails-rspec"
       "markdown-writer"
+      "go-debug"
+      "notebook"
+      "atom-ctags"
     ]
     themes: [
       "one-dark-ui"
@@ -48,14 +57,15 @@
     ]
   editor:
     fontFamily: "Ricty"
-    fontSize: 15
+    fontSize: 16
     invisibles: {}
     showIndentGuide: true
     showInvisibles: true
   emmet: {}
   "exception-reporting":
     userId: "b6e0e25d-e445-31ec-3a35-8e82d7dfe306"
-  "go-plus": {}
+  "go-plus":
+    panelDisplayMode: "closed"
   "haskell-ghc-mod":
     onChangeCheck: true
     onChangeLint: true
@@ -72,12 +82,15 @@
     useKeyboardLayout: "ja_JP"
     useKeyboardLayoutFromPath: "/home/daniel/.atom/ja_JP106.json"
   linter: {}
+  "linter-clang": {}
   "linter-elixirc":
     forceElixirc: true
   "linter-eslint":
     disableWhenNoEslintConfig: false
   "linter-jshint":
     disableWhenNoJshintrcFileInPath: true
+  "markdown-preview-plus":
+    enableLatexRenderingByDefault: true
   "project-plus": {}
   "rails-rspec": {}
   rspec:
@@ -175,7 +188,7 @@
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"
   "wakatime-hidden":
-    lastInit: 1471580662
+    lastInit: 1477114964
   welcome:
     showOnStartup: false
 ".c.source":

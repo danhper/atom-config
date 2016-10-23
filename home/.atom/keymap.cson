@@ -15,7 +15,7 @@
   'ctrl-p': 'core:move-up'
   'ctrl-cmd-w': 'tabs:close-all-tabs'
   'ctrl-cmd-i': 'window:toggle-invisibles'
-  'alt--': 'symbols-view:return-from-declaration'
+  'alt--': 'atom-ctags:return-from-declaration'
   'ctrl-f13': 'editor:focus-main'
   'cmd-i': 'vim-mode:activate-insert-mode'
 
@@ -41,10 +41,12 @@
 
 'atom-text-editor.vim-mode.normal-mode':
   'ctrl-j': 'fuzzy-finder:toggle-file-finder'
-  'ctrl-alt-j': 'fuzzy-finder:toggle-buffer-finder'
   'ctrl-[': 'editor:outdent-selected-rows'
   'ctrl-]': 'editor:indent-selected-rows'
-  'g d': 'symbols-view:go-to-declaration'
+  'g d': 'atom-ctags:go-to-declaration'
+  ';': 'ex-mode:open'
+  'ctrl-alt-k': 'pane:show-previous-item'
+  'ctrl-alt-j': 'pane:show-next-item'
 
 'atom-text-editor.vim-mode.insert-mode':
   'ctrl-j': 'fuzzy-finder:toggle-file-finder'
@@ -58,10 +60,11 @@
   'cmd-f': 'core:page-down'
   'ctrl-h': 'core:backspace'
   'ctrl-j': 'fuzzy-finder:toggle-file-finder'
-  'ctrl-alt-j': 'fuzzy-finder:toggle-buffer-finder'
   'ctrl-x ctrl-c': 'window:close'
   'cmd-u': 'core:undo'
   'cmd-r': 'core:redo'
+  'ctrl-alt-k': 'pane:show-previous-item'
+  'ctrl-alt-j': 'pane:show-next-item'
 
 '.platform-linux atom-text-editor':
   'ctrl-L': 'editor:split-selections-into-lines'
@@ -99,7 +102,7 @@
   'alt--': 'golang:godef-return'
 
 'atom-text-editor.vim-mode.normal-mode[data-grammar="source js"]':
-  'g d': 'tern:definition'
+  'g l d': 'tern:definition'
   'alt--': 'tern:markerCheckpointBack'
 
 'atom-text-editor.vim-mode.insert-mode[data-grammar="text html elixir"]:not([mini])':

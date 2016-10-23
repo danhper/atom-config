@@ -15,3 +15,8 @@ atom.packages.onDidActivatePackage (pack) ->
 atom.commands.add 'atom-workspace',
   'editor:focus-main': (e) ->
     atom.workspace.getActivePane().activate()
+
+if process.env.CURRENT_ENV == 'lab'
+  atom.packages.deactivatePackage('keyboard-localization')
+else
+  atom.packages.activatePackage('keyboard-localization')
