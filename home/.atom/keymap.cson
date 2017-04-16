@@ -7,8 +7,6 @@
   'alt-f14': 'terminal-plus:toggle'
   'ctrl-f13': 'core:focus-previous'
   'ctrl-f14': 'core:focus-next'
-  'cmd-space': 'find-and-replace:select-next'
-  'cmd-enter': 'find-and-replace:select-skip'
   'ctrl-alt-p': 'command-palette:toggle'
   'cmd-w': 'core:close'
   'ctrl-n': 'core:move-down'
@@ -16,7 +14,6 @@
   'ctrl-cmd-w': 'tabs:close-all-tabs'
   'ctrl-cmd-i': 'window:toggle-invisibles'
   'alt--': 'atom-ctags:return-from-declaration'
-  'ctrl-f13': 'editor:focus-main'
   'cmd-i': 'vim-mode:activate-insert-mode'
 
   'ctrl-k ctrl-alt-w': 'unset!'
@@ -32,6 +29,11 @@
   'ctrl-k right': 'unset!'
   'ctrl-k up': 'unset!'
   'ctrl-k up': 'unset!'
+
+'atom-text-editor':
+  'ctrl-space': 'atomic-emacs:set-mark'
+  'cmd-space': 'find-and-replace:select-next'
+  'cmd-enter': 'find-and-replace:select-skip'
 
 '.tree-view':
   'ctrl-n': 'core:move-down'
@@ -65,6 +67,7 @@
   'cmd-r': 'core:redo'
   'ctrl-alt-k': 'pane:show-previous-item'
   'ctrl-alt-j': 'pane:show-next-item'
+  'alt-h': 'atomic-emacs:backward-kill-word'
 
 '.platform-linux atom-text-editor':
   'ctrl-L': 'editor:split-selections-into-lines'
@@ -97,13 +100,24 @@
   't a': 'rspec:run-all'
   'g t': 'rails-rspec:toggle-spec-file'
 
-'atom-text-editor.vim-mode.normal-mode[data-grammar="source go"]':
+'atom-text-editor.vim-mode.normal-mode[data-grammar="source go"]:not([mini])':
   'g d': 'golang:godef'
   'alt--': 'golang:godef-return'
+
+'atom-text-editor.vim-mode.normal-mode[data-grammar="source python"]:not([mini])':
+  'g d': 'autocomplete-python:go-to-definition'
+
+'atom-text-editor.vim-mode[data-grammar="source go"]:not([mini])':
+  'alt-d': 'atomic-emacs:kill-word'
 
 'atom-text-editor.vim-mode.normal-mode[data-grammar="source js"]':
   'g l d': 'tern:definition'
   'alt--': 'tern:markerCheckpointBack'
+
+'atom-workspace atom-text-editor.vim-mode.normal-mode[data-grammar="source ts"]':
+  'g d': 'typescript:go-to-declaration'
+'atom-workspace atom-text-editor[data-grammar="source ts"]':
+  'alt-/': 'typescript:autocomplete'
 
 'atom-text-editor.vim-mode.insert-mode[data-grammar="text html elixir"]:not([mini])':
   'tab': 'emmet:expand-abbreviation-with-tab'
