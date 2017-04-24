@@ -14,7 +14,7 @@
   'ctrl-cmd-w': 'tabs:close-all-tabs'
   'ctrl-cmd-i': 'window:toggle-invisibles'
   'alt--': 'atom-ctags:return-from-declaration'
-  'cmd-i': 'vim-mode:activate-insert-mode'
+  'cmd-i': 'vim-mode-plus:activate-insert-mode'
 
   'ctrl-k ctrl-alt-w': 'unset!'
   'ctrl-k ctrl-down': 'unset!'
@@ -41,7 +41,7 @@
   'ctrl-b': 'tree-view:collapse-directory'
   'ctrl-f': 'tree-view:expand-item'
 
-'atom-text-editor.vim-mode.normal-mode':
+'atom-text-editor.vim-mode-plus.normal-mode':
   'ctrl-j': 'fuzzy-finder:toggle-file-finder'
   'ctrl-[': 'editor:outdent-selected-rows'
   'ctrl-]': 'editor:indent-selected-rows'
@@ -50,7 +50,7 @@
   'ctrl-alt-k': 'pane:show-previous-item'
   'ctrl-alt-j': 'pane:show-next-item'
 
-'atom-text-editor.vim-mode.insert-mode':
+'atom-text-editor.vim-mode-plus.insert-mode':
   'ctrl-j': 'fuzzy-finder:toggle-file-finder'
   'ctrl-y': 'core:paste'
   'ctrl-w': 'core:cut'
@@ -92,35 +92,35 @@
   'ctrl-k ctrl-8': 'unset!'
   'ctrl-k ctrl-9': 'unset!'
 
-'atom-workspace atom-text-editor.vim-mode.normal-mode[data-grammar="source ruby"],
- atom-workspace atom-text-editor.vim-mode.normal-mode[data-grammar="source ruby rails"]':
+'atom-workspace atom-text-editor.vim-mode-plus.normal-mode[data-grammar="source ruby"],
+ atom-workspace atom-text-editor.vim-mode-plus.normal-mode[data-grammar="source ruby rails"]':
   't r': 'rspec:run'
   't h': 'rspec:run-for-line'
   't l': 'rspec:run-last'
   't a': 'rspec:run-all'
   'g t': 'rails-rspec:toggle-spec-file'
 
-'atom-text-editor.vim-mode.normal-mode[data-grammar="source go"]:not([mini])':
+'atom-text-editor.vim-mode-plus.normal-mode[data-grammar="source go"]:not([mini])':
   'g d': 'golang:godef'
   'alt--': 'golang:godef-return'
 
-'atom-text-editor.vim-mode.normal-mode[data-grammar="source python"]:not([mini])':
+'atom-text-editor.vim-mode-plus.normal-mode[data-grammar="source python"]:not([mini])':
   'g d': 'autocomplete-python:go-to-definition'
 
 'atom-text-editor.vim-mode[data-grammar="source go"]:not([mini])':
   'alt-d': 'atomic-emacs:kill-word'
 
-'atom-text-editor.vim-mode.normal-mode[data-grammar="source js"]':
+'atom-text-editor.vim-mode-plus.normal-mode[data-grammar="source js"]':
   'g l d': 'tern:definition'
   'alt--': 'tern:markerCheckpointBack'
 
-'atom-workspace atom-text-editor.vim-mode.normal-mode[data-grammar="source ts"]':
+'atom-workspace atom-text-editor.vim-mode-plus.normal-mode[data-grammar="source ts"]':
   'g d': 'typescript:go-to-declaration'
 'atom-workspace atom-text-editor[data-grammar="source ts"]':
   'alt-/': 'typescript:autocomplete'
 
-'atom-text-editor.vim-mode.insert-mode[data-grammar="text html elixir"]:not([mini])':
+'atom-text-editor.vim-mode-plus.insert-mode[data-grammar="text html elixir"]:not([mini])':
   'tab': 'emmet:expand-abbreviation-with-tab'
 
-'atom-text-editor.vim-mode.normal-mode[data-grammar="source haskell"]':
+'atom-text-editor.vim-mode-plus.normal-mode[data-grammar="source haskell"]':
   'g d': 'haskell-ghc-mod:go-to-declaration'
