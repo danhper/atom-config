@@ -34,6 +34,8 @@
   'ctrl-space': 'atomic-emacs:set-mark'
   'cmd-space': 'find-and-replace:select-next'
   'cmd-enter': 'find-and-replace:select-skip'
+  'ctrl-alt-p': 'command-palette:toggle'
+  'ctrl-m': 'bracket-matcher:go-to-matching-bracket'
 
 '.tree-view':
   'ctrl-n': 'core:move-down'
@@ -92,6 +94,9 @@
   'ctrl-k ctrl-8': 'unset!'
   'ctrl-k ctrl-9': 'unset!'
 
+'atom-workspace atom-text-editor.vim-mode-plus.normal-mode:not([mini])':
+  ':': 'ex-mode:open'
+
 'atom-workspace atom-text-editor.vim-mode-plus.normal-mode[data-grammar="source ruby"],
  atom-workspace atom-text-editor.vim-mode-plus.normal-mode[data-grammar="source ruby rails"]':
   't r': 'rspec:run'
@@ -103,6 +108,8 @@
 'atom-text-editor.vim-mode-plus.normal-mode[data-grammar="source go"]:not([mini])':
   'g d': 'golang:godef'
   'alt--': 'golang:godef-return'
+'atom-text-editor.vim-mode-plus[data-grammar="source go"]:not([mini])':
+  'alt-d': 'atomic-emacs:kill-word'
 
 'atom-text-editor.vim-mode-plus.normal-mode[data-grammar="source python"]:not([mini])':
   'g d': 'autocomplete-python:go-to-definition'
@@ -113,6 +120,10 @@
 'atom-text-editor.vim-mode-plus.normal-mode[data-grammar="source js"]':
   'g l d': 'tern:definition'
   'alt--': 'tern:markerCheckpointBack'
+
+'atom-text-editor.vim-mode-plus.normal-mode[data-grammar="source elixir"]':
+  'g d': 'atom-elixir:goto-definition'
+  'alt--': 'atom-elixir:return-from-definition'
 
 'atom-workspace atom-text-editor.vim-mode-plus.normal-mode[data-grammar="source ts"]':
   'g d': 'typescript:go-to-declaration'
